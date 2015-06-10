@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732098911B204FEA0016094A /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 732098901B204FEA0016094A /* AlertView.m */; };
 		738333B31AFA64D400683E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 738333B21AFA64D400683E39 /* main.m */; };
 		738333B61AFA64D400683E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 738333B51AFA64D400683E39 /* AppDelegate.m */; };
 		738333B91AFA64D400683E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738333B81AFA64D400683E39 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7320988F1B204FEA0016094A /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertView.h; path = SourceFiles/AlertView.h; sourceTree = "<group>"; };
+		732098901B204FEA0016094A /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertView.m; path = SourceFiles/AlertView.m; sourceTree = "<group>"; };
 		738333AD1AFA64D400683E39 /* VSAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		738333B11AFA64D400683E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		738333B21AFA64D400683E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,9 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7320988E1B204FD50016094A /* Sorce Files */ = {
+			isa = PBXGroup;
+			children = (
+				7320988F1B204FEA0016094A /* AlertView.h */,
+				732098901B204FEA0016094A /* AlertView.m */,
+			);
+			name = "Sorce Files";
+			sourceTree = "<group>";
+		};
 		738333A41AFA64D400683E39 = {
 			isa = PBXGroup;
 			children = (
+				7320988E1B204FD50016094A /* Sorce Files */,
 				738333AF1AFA64D400683E39 /* VSAlertView */,
 				738333C91AFA64D400683E39 /* VSAlertViewTests */,
 				738333AE1AFA64D400683E39 /* Products */,
@@ -219,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				738333B91AFA64D400683E39 /* ViewController.m in Sources */,
+				732098911B204FEA0016094A /* AlertView.m in Sources */,
 				738333B61AFA64D400683E39 /* AppDelegate.m in Sources */,
 				738333B31AFA64D400683E39 /* main.m in Sources */,
 			);
@@ -351,6 +365,7 @@
 				INFOPLIST_FILE = VSAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -361,6 +376,7 @@
 				INFOPLIST_FILE = VSAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -417,6 +433,7 @@
 				738333D21AFA64D400683E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		738333D31AFA64D400683E39 /* Build configuration list for PBXNativeTarget "VSAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +442,7 @@
 				738333D51AFA64D400683E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
